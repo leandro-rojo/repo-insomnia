@@ -1,0 +1,30 @@
+_id: req_31cf9aa778314bfcb23685d482189102
+type: Request
+parentId: wrk_dd69d3e0f4864a66985b38f57d961def
+modified: 1658171981726
+created: 1658171880579
+url: http://localhost:8080/user/login
+name: Login/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username":"lrojo",
+        "password":"12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e2987a9c48c04ccaacb7f8665f05a3b5
+authentication: {}
+metaSortKey: -1658171880579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
