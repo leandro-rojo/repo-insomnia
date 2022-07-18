@@ -1,10 +1,10 @@
 _id: req_db1cdb9da3f9414bbc3149e0a6beb5a3
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658172235710
+modified: 1658173245889
 created: 1658168431529
 url: http://localhost:8080/user/7cf67e07-571b-4018-a0fd-001f11a1d43e
-name: User/id
+name: User/{id}
 description: ""
 method: GET
 body: {}

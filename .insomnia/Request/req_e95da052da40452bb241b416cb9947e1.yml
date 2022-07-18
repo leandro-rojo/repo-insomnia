@@ -1,26 +1,30 @@
-_id: req_31cf9aa778314bfcb23685d482189102
+_id: req_e95da052da40452bb241b416cb9947e1
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658173235158
-created: 1658171880579
-url: http://localhost:8080/user/login
-name: User/Login/
+modified: 1658173224215
+created: 1658173043215
+url: http://localhost:8080/user/
+name: User/
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "username":"lrojo",
-        "password":"12345678"
+        "username":"prueba25",
+        "password":"prueba25",
+        "email":"prueba25@de.sistema",
+        "firstname":"prueba25",
+        "lastname":"sistema25",
+        "loteriaID":["2","5"]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_e2987a9c48c04ccaacb7f8665f05a3b5
+    id: pair_813d07662a7d40449460163cc55b3395
 authentication: {}
-metaSortKey: -1658171880579
+metaSortKey: -1658173043215
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
