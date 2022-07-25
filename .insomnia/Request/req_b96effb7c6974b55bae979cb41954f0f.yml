@@ -1,30 +1,28 @@
-_id: req_e95da052da40452bb241b416cb9947e1
+_id: req_b96effb7c6974b55bae979cb41954f0f
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658764330833
-created: 1658173043215
-url: "{{ _.url }}user/"
-name: User/
+modified: 1658764336108
+created: 1658242005499
+url: "{{ _.url }}user/{{ _.uuid }}"
+name: User/{id}
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-        "username":"prueba25",
-        "password":"prueba25",
-        "email":"prueba25@de.sistema",
-        "firstname":"prueba25",
-        "lastname":"sistema25",
-        "loteriaID":["2","5"]
+        "email":"lrojo@folcode.com",
+        "firstname":"LeandroIvan",
+        "lastname":"Rojo",
+        "loteriaID":["9","3"]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_813d07662a7d40449460163cc55b3395
+    id: pair_8662bf376a4048c687a48076407eb825
 authentication: {}
-metaSortKey: -1658173043215
+metaSortKey: -1658242005499
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

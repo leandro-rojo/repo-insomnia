@@ -1,11 +1,20 @@
 _id: env_179b563b93522d1ca264e740fb3eff5cc66401df
 type: Environment
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658171726396
+modified: 1658764260118
 created: 1658168431519
 name: Base Environment
-data: {}
-dataPropertyOrder: {}
+data:
+  username: lrojo@folcode.com
+  password: "12345678"
+  uuid: 7cf67e07-571b-4018-a0fd-001f11a1d43e
+  url: http://localhost:8080/
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - uuid
+    - url
 color: null
 isPrivate: false
 metaSortKey: 1658168431519

@@ -1,17 +1,17 @@
-_id: req_1bb6b5bd775d434db0d80db3ff3e56d4
+_id: req_db0d161d7e3c4ac28fc4d848e91a82f1
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658764316940
-created: 1658171661695
-url: "{{ _.url }}user/"
-name: User/
+modified: 1658764357521
+created: 1658762976774
+url: "{{ _.url }}user/enable/7cf67e07-571b-4018-a0fd-001f11a1d43e"
+name: User/Enable/{id}
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1658171661695
+metaSortKey: -1658762976774
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

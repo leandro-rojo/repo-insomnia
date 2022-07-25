@@ -1,9 +1,9 @@
 _id: req_31cf9aa778314bfcb23685d482189102
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658173235158
+modified: 1658764326224
 created: 1658171880579
-url: http://localhost:8080/user/login
+url: "{{ _.url }}user/login"
 name: User/Login/
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "username":"lrojo",
-        "password":"12345678"
+        "username":"{{ _.username }}",
+        "password":"{{ _.password }}"
     }
 parameters: []
 headers:

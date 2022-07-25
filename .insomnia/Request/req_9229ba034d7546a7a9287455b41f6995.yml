@@ -1,17 +1,17 @@
-_id: req_1bb6b5bd775d434db0d80db3ff3e56d4
+_id: req_9229ba034d7546a7a9287455b41f6995
 type: Request
 parentId: wrk_dd69d3e0f4864a66985b38f57d961def
-modified: 1658764316940
-created: 1658171661695
-url: "{{ _.url }}user/"
-name: User/
+modified: 1658764342259
+created: 1658762148886
+url: "{{ _.url }}user/44b37dbb-4d67-4220-8296-8ee3f9f23798"
+name: User/{id}
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1658171661695
+metaSortKey: -1658762148886
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
